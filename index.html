@@ -30,6 +30,7 @@
                  'bike-primary': '#E76F51',
                  'bg_btn' : 'rgba(171, 239, 95, 0.5);',
                  'txt-col': '#494949',
+                 'connect-btn' : 'rgba(171, 239, 95, 0.2)',
                } 
              }
            }
@@ -151,7 +152,7 @@
         </div>
 
         <!-- Arrow  -->
-         <div class="lg:block lg:absolute top-6 left-2 sm:hidden">
+         <div class="hidden lg:block lg:absolute top-6 left-2">
           <img src="./assets/Vector.png" alt="">
          </div>
        </section>
@@ -161,8 +162,8 @@
 
        <section class="w-10/12 mx-auto">
         <!-- text -->
-         <div class="text-center w-3/4 mx-auto">
-            <h4 class="text-base font-bold">
+         <div class="text-center w-3/4 mx-auto ">
+            <h4 class="text-base font-bold bg-slate-200 p-2 rounded-lg">
               <span><i class="fa-solid fa-arrow-right"></i></span> How we works
             </h4>
             <h1 class="font-bold text-5xl my-3 lg:my-6">Our Works Process</h1>
@@ -173,27 +174,27 @@
          
          <div class="grid py-24 grid-cols-1 gap-6 lg:grid-cols-4">
           <!-- card 1 -->
-          <div class="bg-[#E7C1D3] rounded-lg">
+          <div class="bg-[#E7C1D3] rounded-lg p-6 ">
               <img src="./assets/concept.png" alt="">
-              <h4 class="text-xl font-extrabold">Concept</h4>
+              <h4 class="text-xl font-extrabold py-2">Concept</h4>
               <p class="text-base font-medium">Our concepts blend creativity and functionality, delivering unique designs that perfectly align with your vision and lifestyle.</p>
           </div>
           <!-- card 2 -->
-          <div class="bg-[#E7C1D3] rounded-lg">
+          <div class="bg-[#EFDA6E] rounded-lg p-6">
             <img src="./assets/flow-chart.png" alt="">
-            <h4 class="text-xl font-extrabold">Design Process</h4>
+            <h4 class="text-xl font-extrabold py-2">Design Process</h4>
             <p class="text-base font-medium">Our design process integrates your ideas with expert planning, creating bespoke spaces that reflect your unique style.</p>
           </div>
           <!-- card 3 -->
-          <div class="bg-[#E7C1D3] rounded-lg">
+          <div class="bg-[#A4DAC3] rounded-lg p-6">
             <img src="./assets/vision.png" alt="">
-            <h4 class="text-xl font-extrabold">Supervision</h4>
+            <h4 class="text-xl font-extrabold py-2">Supervision</h4>
             <p class="text-base font-medium">Meticulous supervision ensures every project phase meets the highest standards, delivering flawless execution and quality.</p>
           </div>
           <!-- card 4 -->
-          <div class="bg-[#E7C1D3] rounded-lg">
+          <div class="bg-[#77AAEA] rounded-lg p-6">
             <img src="./assets/budget-planning.png" alt="">
-            <h4 class="text-xl font-extrabold">Budget Planning</h4>
+            <h4 class="text-xl font-extrabold py-2">Budget Planning</h4>
             <p class="text-base font-medium">Strategic budget planning maximizes value, balancing quality and cost to ensure your project stays on track.</p>
           </div>
          </div>
@@ -202,8 +203,72 @@
 
       <!-- Work Section End -->
 
+      <!-- Form Section Start -->
+
+       <section class="mx-auto bg-[url(./assets/bg.jpg)] py-10 lg:py-20">
+        <!-- Text -->
+          <div class="w-9/12 mx-auto flex flex-col items-center mb-4">
+            <h4 class="bg-connect-btn text-base font-bold px-4 py-2"><span><i class="fa-solid fa-arrow-right"></i></span>
+                Let’s Connect 
+            </h4>
+            <h2 class="text-4xl font-bold my-6">Let’s Discuss Next Project</h2>
+            <p class="text-base font-medium text-center">The barn house captivates with its blend of rustic charm and modern sophistication,<br class="hidden md:block"> featuring weathered wood, sleek metal accents.</p>
+          </div>
+        <!-- Form -->
+          <div class="w-9/12 mx-auto grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-4 gap-4">
+
+            <div class="lg:col-span-2 rounded-[64px]"><input type="text" placeholder="First Name*" class="input w-full" /></div>
+            
+            <div class="lg:col-span-2 rounded-[64px]"><input type="text" placeholder="Last Name*" class="input w-full" /></div>
+            
+            <div class="lg:col-span-2 rounded-[64px]"><input type="number" placeholder="Phone Number*" class="input w-full" /></div>
+            
+
+            
+            <div class="lg:col-span-2 rounded-[64px]"><input type="text" placeholder="Email Number*" class="input w-full" /></div>
+            
+            <div class="lg:col-span-4 lg:row-span-2 rounded-[64px]"><textarea placeholder="Write your message here" class="textarea w-full"></textarea></div>
+            
+          </div>
+          <!-- button -->
+          <div class="w-9/12 mx-auto flex justify-center bg-[#ABEF5F] py-3 px-5 rounded-xl">
+            <h4 class="text-xl font-extrabold">Send Mail <span class="bg-[#1C1C1C] text-white rounded-full p-1 "><i class=" -rotate-45 p-1 fa-solid fa-arrow-right"></i></span> </h4>
+          </div>
+       </section>
+
+
+      <!-- Form Section End -->
+
     </main>
 
     <!-- Main Section Ends -->
+
+    <!-- Footer Section Start -->
+
+    <footer class="footer footer-center bg-neutral text-neutral-content rounded p-10 lg:py-20">
+      <nav>
+        <div class="flex flex-col items-center gap-4">
+          <div class="flex justify-center gap-2">
+            <span class="bg-[#ABEF5F] text-black rounded-full w-8 h-8 content-center"><i class=" -rotate-45 p-1 fa-solid fa-arrow-right"></i></span>
+          <h4 class="text-3xl font-extrabold">Rinterio </h4>
+          </div>
+          <p class="text-base font-normal opacity-50">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:block"> featuring weathered wood, sleek metal accents.</p>
+        </div>
+      </nav>
+      <nav class="grid grid-cols-1 lg:grid-flow-col gap-4">
+        <a class="text-base font-medium">Home</a>
+        <a class="text-base font-medium">Portfolio</a>
+        <a class="text-base font-medium">Services</a>
+        <a class="text-base font-medium">Blogs</a>
+        <a class="text-base font-medium">Contact Us</a>
+      </nav>
+      <aside>
+        <div class="bg-[#ABEF5F] py-3 px-5 rounded-xl">
+          <h4 class="text-xl font-extrabold text-black">Book Consult <span class="bg-[#1C1C1C] text-white rounded-full p-1 "><i class=" -rotate-45 p-1 fa-solid fa-arrow-right"></i></span> </h4>
+        </div>
+      </aside>
+    </footer>
+
+    <!-- Footer Section End -->
 </body>
 </html>
