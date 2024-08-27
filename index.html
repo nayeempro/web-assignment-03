@@ -39,7 +39,7 @@
 </head>
 <body class="font-manrope">
     <!-- Header Start -->
-     <header class="bg-gradient-to-t from-white via-white to-transparent w-10/12 mx-auto">
+     <header class="bg-gradient-to-t from-white via-white to-transparent w-10/12 mx-auto mt-6">
     <!-- Nav  -->
         <div class="navbar">
           <!-- navbar-start -->
@@ -64,7 +64,7 @@
           <!-- navbar-end -->
             <div class="navbar-end">
                 <div class="">
-                    <div class="hidden lg:flex justify-center items-center">
+                    <div class="hidden bg-white lg:flex justify-center items-center">
                       <div class="flex gap-4 items-center my-2 px-4 py-2.5">
                         <div class="bg-white"><i class="fa-solid fa-magnifying-glass"></i>
                         </div>
@@ -85,7 +85,7 @@
         </div>
     <!-- Banner Start-->
 
-      <div class="hero min-h-screen">
+      <div class="hero">
         <div class="hero-content flex-col text-center">
           <div class="">
             <img
@@ -97,7 +97,7 @@
             <p class="py-6 text-txt-col font-medium">
               The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
             </p>
-            <button class="btn bg-bg_btn">View Details
+            <button class="btn bg-bg_btn w-full lg:w-1/4 rounded-2xl">View Details
               <span class="bg-[#ABEF5F] flex items-center justify-center w-10 h-10 rounded-full font-semibold -rotate-45"><i class="fa-solid fa-arrow-right"></i></span>
             </button>
           </div>
@@ -111,93 +111,131 @@
     <!-- Main Section Start -->
 
     <main class="bg-slate-100">
-      <!-- About Section Start -->
-       <section class="w-10/12 mx-auto py-20 lg:flex justify-center items-center  sm:px-4 lg:relative">
-        <!-- About Section Text -->
-        <div class="flex-1  mr-2 mb-3 lg:mb-0 ">
-          <div class="text-base font-bold bg-white rounded-lg p-2 w-1/4 mb-3 lg:mb-16 sm:ml-30 ">
-            <span><i class="fa-solid fa-arrow-right"></i></span> About Us
-          </div>
-          <div>
-            <h2 class="text-4xl font-bold pb-10">We design thoughtful, liveable spaces</h2>
-            <p class="text-txt-col">The barn house captivates with its blend of rustic charm and 
-            modern sophistication, featuring weathered wood, sleek metal accents.</p>
-          </div>
-          <div class="flex items-center bg-white gap-2 p-3 rounded-lg mt-6">
-            <div class="w-1/6">
-              <img class="w-full h-full" src="./assets/commercial.png" alt="">
-            </div>
-            <div class="w-5/6">
-              <h2 class="font-bold text-xl">Commercial</h2>
-              <p class="text-txt-col">
-                Discover prime commercial properties with modern facilities,strategic locations and growth opportunities in a thriving marketplace
-              </p>
-            </div>
-          </div>
-          <div class="flex items-center bg-white gap-2 p-3 rounded-lg mt-6">
-            <div class="w-1/6">
-              <img class="w-full h-full" src="./assets/residential.png" alt="">
-            </div>
-            <div class="w-5/6">
-              <h2 class="font-bold text-xl">Residential</h2>
-              <p class="text-txt-col">
-                Explore our exceptional residential properties, offering comfort and style in sought-after neighborhoods, perfect for creating your ideal living space.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- About Section Image -->
-        <div class="flex-1">
-            <img class="w-full" src="./assets/Rectangle.png" alt="">
-        </div>
 
-        <!-- Arrow  -->
-         <div class="hidden lg:block lg:absolute top-6 left-2">
-          <img src="./assets/Vector.png" alt="">
-         </div>
+      <!-- About Section Stat new -->
+       <section class="w-9/12 mx-auto py-20 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- Text -->
+        <div class="relative">
+          <div class="flex-col justify-center text-center lg:text-start items-center">
+            <h3 class="text-base font-bold bg-white rounded-lg p-2 w-1/4 ml-[40%] lg:ml-0  mb-3 lg:mb-16  ">
+              <span><i class="fa-solid fa-arrow-right"></i></span> About Us
+            </h3>
+              
+            <h2 class="text-4xl font-bold mb-2">We design thoughtful, liveable spaces
+
+            </h2>
+            <p class="text-txt-col">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+          </div>
+          <!-- text box -->
+          <div class="card card-side bg-white shadow-xl my-4">
+            <figure class="w-2/3 h-2/3">
+              <img class="w-full h-full " src="./assets/commercial.png" alt="">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p>Discover prime commercial properties with modern facilities,strategic locations and growth opportunities in a thriving marketplace.</p>
+            </div>
+          </div>
+          <div class="card card-side bg-white shadow-xl">
+            <figure class="w-2/3 h-2/3">
+              <img class="w-full h-full" src="./assets/residential.png" alt="">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Residential</h2>
+              <p>Explore our exceptional residential properties, offering comfort and style in sought-after neighborhoods, perfect for creating your ideal living space.</p>
+            </div>
+          </div>
+          <div class="hidden lg:block lg:absolute -top-16 -left-8">
+            <img src="./assets/Vector.png" alt="">
+          </div>
+         
+        </div>
+        <!-- Image -->
+        <div class="w-full">
+          <img class="w-full h-full" src="./assets/Rectangle.png" alt="">
+        </div>
        </section>
-      <!-- About Section End -->
+      <!-- About Section End new -->
 
       <!-- Work Section Start -->
 
-       <section class="w-10/12 mx-auto">
+       <section class="w-9/12 mx-auto">
         <!-- text -->
-         <div class="text-center w-3/4 mx-auto ">
-            <h4 class="text-base font-bold bg-slate-200 p-2 rounded-lg">
-              <span><i class="fa-solid fa-arrow-right"></i></span> How we works
-            </h4>
-            <h1 class="font-bold text-5xl my-3 lg:my-6">Our Works Process</h1>
-            <p class="text-base font-medium">Experience a seamless and transparent work process, from initial consultation to final delivery, ensuring every detail is crafted to meet your expectations.</p>
-         </div>
-         <!-- Card -->
+        <div class="w-7/12 mx-auto flex flex-col items-center mb-4">
+          <h4 class="bg-white text-base font-bold px-4 py-2 rounded-3xl"><span><i class="fa-solid fa-arrow-right"></i></span>
+            How we works 
+          </h4>
+          <h2 class="text-2xl lg:text-4xl font-bold my-6">Our Works Process</h2>
+          <p class="text-base font-medium text-center opacity-60">Our seamless process ensures a stress-free experience, from property selection to finalizing your rental. We prioritize transparency, efficiency, and your satisfaction every step of the way.</p>
+        </div>
+        <!-- card new -->
+         <div class="grid grid-cols-1 gap-6 lg:grid-cols-4 py-24">
+          <!-- card 1 new -->
+          <div class="card bg-[#E7C1D3] shadow-xl">
+            <div class="card-body">
+              <div class="">
+                <img src="./assets/concept.png" alt="">
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-2">
+                Concept
+              </h2>
+              <p class="text-base font-medium opacity-85">Our concepts blend creativity and functionality, delivering unique designs that perfectly align with your vision and lifestyle.
+              </p>
+              
+            </div>
+          </div>
 
-         
-         <div class="grid py-24 grid-cols-1 gap-6 lg:grid-cols-4">
-          <!-- card 1 -->
-          <div class="bg-[#E7C1D3] rounded-lg p-6 ">
-              <img src="./assets/concept.png" alt="">
-              <h4 class="text-xl font-extrabold py-2">Concept</h4>
-              <p class="text-base font-medium">Our concepts blend creativity and functionality, delivering unique designs that perfectly align with your vision and lifestyle.</p>
+          <!-- card 2 new -->
+          <div class="card bg-[#EFDA6E] shadow-xl">
+            <div class="card-body">
+              <div class="">
+                <img src="./assets/flow-chart.png" alt="">
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-2">
+                Design Process
+              </h2>
+              <p class="text-base font-medium opacity-85">Our design process integrates your ideas with expert planning, creating bespoke spaces that reflect your unique style.
+              </p>
+              
+            </div>
           </div>
-          <!-- card 2 -->
-          <div class="bg-[#EFDA6E] rounded-lg p-6">
-            <img src="./assets/flow-chart.png" alt="">
-            <h4 class="text-xl font-extrabold py-2">Design Process</h4>
-            <p class="text-base font-medium">Our design process integrates your ideas with expert planning, creating bespoke spaces that reflect your unique style.</p>
+
+          <!-- card 3 new -->
+          <div class="card bg-[#A4DAC3] shadow-xl">
+            <div class="card-body">
+              <div class="">
+                <img src="./assets/vision.png" alt="">
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-2">
+                Supervision
+              </h2>
+              <p class="text-base font-medium opacity-85">Meticulous supervision ensures every project phase meets the highest standards, delivering flawless execution and quality.
+              </p>
+              
+            </div>
           </div>
-          <!-- card 3 -->
-          <div class="bg-[#A4DAC3] rounded-lg p-6">
-            <img src="./assets/vision.png" alt="">
-            <h4 class="text-xl font-extrabold py-2">Supervision</h4>
-            <p class="text-base font-medium">Meticulous supervision ensures every project phase meets the highest standards, delivering flawless execution and quality.</p>
+
+          <!-- card 4 new -->
+          <div class="card bg-[#77AAEA] shadow-xl">
+            <div class="card-body">
+              <div class="">
+                <img src="./assets/budget-planning.png" alt="">
+              </div>
+              <h2 class="card-title text-xl font-extrabold py-2">
+                Budget Planning
+              </h2>
+              <p class="text-base font-medium opacity-85">Strategic budget planning maximizes value, balancing quality and cost to ensure your project stays on track.
+              </p>
+              
+            </div>
           </div>
-          <!-- card 4 -->
-          <div class="bg-[#77AAEA] rounded-lg p-6">
-            <img src="./assets/budget-planning.png" alt="">
-            <h4 class="text-xl font-extrabold py-2">Budget Planning</h4>
-            <p class="text-base font-medium">Strategic budget planning maximizes value, balancing quality and cost to ensure your project stays on track.</p>
-          </div>
-         </div>
+
+
+
+
+        </div>
+        <!-- card new end -->
 
        </section>
 
@@ -224,7 +262,7 @@
                 </div>
                 <div class="p-4 w-full flex-col justify-between">
                   <h2 class="text-2xl font-extrabold">Commercial</h2>
-                  <p class="text-base font-medium my-3 lg:my-7 opacity-60">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <p class="text-base font-medium my-3 lg:my-7 opacity-60">Discover prime commercial spaces designed to elevate your business. Perfectly located, modern facilities, and tailored for your success.</p>
                   <h3 class="text-xl font-extrabold">View Details <span class="bg-[#ABEF5F] text-black  rounded-full p-0 "><i class=" -rotate-45 p-1 fa-solid fa-arrow-right"></i></span></h3>
                 </div>
               </div>
@@ -246,8 +284,8 @@
                   <img class="w-full h-full object-cover rounded-3xl" src="./assets/img4.png" alt="">
                 </div>
                 <div class="p-4 flex-1 flex-col justify-between">
-                  <h2 class="text-2xl font-extrabold">Commercial</h2>
-                  <p class="text-base font-medium my-3 lg:my-7 opacity-60">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <h2 class="text-2xl font-extrabold">Residential</h2>
+                  <p class="text-base font-medium my-3 lg:my-7 opacity-60">Find your perfect home in our selection of beautiful, well-maintained residential properties, offering comfort, style, and convenience for every lifestyle.</p>
                   <h3 class="text-xl font-extrabold">View Details <span class="bg-[#ABEF5F] text-black  rounded-full p-0 "><i class=" -rotate-45 p-1 fa-solid fa-arrow-right"></i></span></h3>
                 </div>
               </div>
@@ -268,7 +306,7 @@
 
       <!-- Challenge part Extra section start -->
   
-    <section class="bg-slate-100  mx-auto py-12 lg:py-24">
+    <section class="bg-slate-100  mx-auto py-12 lg:py-24"> 
       <!-- Text -->
       <div class="w-7/12 mx-auto flex flex-col items-center mb-4">
         <h4 class="bg-connect-btn text-base font-bold px-4 py-2 rounded-3xl"><span><i class="fa-solid fa-arrow-right"></i></span>
@@ -282,7 +320,7 @@
         <!-- card 1 -->
         <div class="card bg-base-300 shadow-xl">
           <figure class="h-1/2">
-            <img class="w-full h-full" src="./assets/ch1.jpg" alt="">
+            <img class="w-full h-full rounded-xl" src="./assets/ch1.jpg" alt="">
           </figure>
           <div class="card-body h-1/2">
             <h2 class="card-title">
@@ -301,7 +339,7 @@
         <!-- card 2 -->
         <div class="card bg-base-300 shadow-xl">
           <figure class="h-1/2">
-            <img class="w-full h-full" src="./assets/ch2.jpg" alt="">
+            <img class="w-full h-full rounded-xl" src="./assets/ch2.jpg" alt="">
           </figure>
           <div class="card-body h-1/2">
             <h2 class="card-title">
@@ -318,9 +356,9 @@
         </div>
 
         <!-- card 3 -->
-        <div class="card bg-base-300 shadow-xl">
+        <div class="card bg-base-300 shadow-xl"> 
           <figure class="h-1/2">
-            <img class="w-full h-full" src="./assets/ch3.jpg" alt="">
+            <img class="w-full h-full rounded-xl" src="./assets/ch3.jpg" alt="">
           </figure>
           <div class="card-body h-1/2">
             <h2 class="card-title">
